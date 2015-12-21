@@ -36,22 +36,22 @@ IP tables
 
 It also creates:
 
-A minimally privilaged user (pgadmin)
+- A minimally privilaged user (pgadmin)
 
-Disables root log in
+- Disables root log in
 
-Sets IP tables
+- Sets IP tables
 
-Configures Webmin for managing PostgreSQL
+- Configures Webmin for managing PostgreSQL
 
-Installs a self-signed SSL
+- Installs a self-signed SSL
 
-Updates pga_hba.conf to MD5 and SSL
+- Updates pga_hba.conf to MD5 and SSL
 
-Updates postgresql.conf for SSL.
+- Updates postgresql.conf for SSL.
 
-You can change the SSH port as well as the user name to whatever you like.  You can also add/remove packages.
+- You can change the SSH port as well as the user name to whatever you like.  You can also add/remove packages.
 
-Once completed, it will display the new passwords for pgadmin, root, postgres, and ssl.
+- Once completed, it will display the new passwords for pgadmin, root, postgres, and ssl as well as write them to an auth.txt file.
 
 You will need to enter the postgres password in Webmin
