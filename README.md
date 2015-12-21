@@ -4,37 +4,37 @@ For use on a clean CentOS 6.x64 box only.
 
 This script installs:
 
-postgresql94 
+- postgresql94 
 
-postgresql94-devel
+- postgresql94-devel
 
-postgresql94-server 
+- postgresql94-server 
 
-postgresql94-libs 
+- postgresql94-libs 
 
-postgresql94-contrib 
+- postgresql94-contrib 
 
-postgresql94-plperl 
+- postgresql94-plperl 
 
-postgresql94-plpython 
+- postgresql94-plpython 
 
-postgresql94-pltcl 
+- postgresql94-pltcl 
 
-postgresql94-python 
+- postgresql94-python 
 
-postgresql94-odbc 
+- postgresql94-odbc 
 
-postgresql94-jdbc 
+- postgresql94-jdbc 
 
-perl-DBD-Pg 
+- perl-DBD-Pg 
 
-pgbouncer
+- pgbouncer
 
-Webmin
+- Webmin
 
-IP tables
+- IP tables
 
-It also creates:
+The script also creates the following:
 
 - A minimally privilaged user (pgadmin)
 
