@@ -1,11 +1,57 @@
 # postgresql 9.4 script for centos 6.x64
 
-For use on a clean CentOS box only.
+For use on a clean CentOS 6.x64 box only.
 
-This script installs PostgreSQL 9.4 along with Webmin.
+This script installs:
 
-It also creates a minimally privilaged user (pgadmin), disables root log in, sets IP tables and configures Webmin for managing PostgreSQL.
+postgresql94 
 
-A self-signed SSL is also created and pga_hba.conf is set to MD5 and postgresql.conf is updated for SSL.
+postgresql94-devel
 
-You can change the SSH port as well as the user name to whatever you like.
+postgresql94-server 
+
+postgresql94-libs 
+
+postgresql94-contrib 
+
+postgresql94-plperl 
+
+postgresql94-plpython 
+
+postgresql94-pltcl 
+
+postgresql94-python 
+
+postgresql94-odbc 
+
+postgresql94-jdbc 
+
+perl-DBD-Pg 
+
+pgbouncer
+
+Webmin
+
+IP tables
+
+It also creates:
+
+A minimally privilaged user (pgadmin)
+
+Disables root log in
+
+Sets IP tables
+
+Configures Webmin for managing PostgreSQL
+
+Installs a self-signed SSL
+
+Updates pga_hba.conf to MD5 and SSL
+
+Updates postgresql.conf for SSL.
+
+You can change the SSH port as well as the user name to whatever you like.  You can also add/remove packages.
+
+Once completed, it will display the new passwords for pgadmin, root, postgres, and ssl.
+
+You will need to enter the postgres password in Webmin
